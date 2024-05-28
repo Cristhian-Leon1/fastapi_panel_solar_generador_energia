@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from typing import List
-from backend.models.modelo_generador import GeneradorDataModel
-from backend.controllers.controladores_generador import (create_generador_data, get_generador_byID, get_all_generador_data,
+from models.modelo_generador import GeneradorDataModel
+from controllers.controladores_generador import (create_generador_data, get_generador_byID, get_all_generador_data,
                                                          delete_generador_byID, update_generador_byID,
                                                          delete_all_generador_data, get_last_20_generador_data,
                                                          get_last_generador_data)
