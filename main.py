@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
-from backend.routes.rutas_generador import get_router
-from backend.mongoDB.conexion_mongo import establecer_conexion
+from routes.rutas_generador import get_router
+from mongoDB.conexion_mongo import establecer_conexion
 from fastapi.middleware.cors import CORSMiddleware
 
 variables_collection = None
