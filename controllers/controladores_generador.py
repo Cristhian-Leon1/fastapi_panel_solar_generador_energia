@@ -3,7 +3,7 @@ from pymongo.collection import Collection
 from typing import List, Type
 from pytz import timezone
 from datetime import datetime
-from backend.models.modelo_generador import GeneradorDataModel
+from models.modelo_generador import GeneradorDataModel
 
 
 # Crear registro
