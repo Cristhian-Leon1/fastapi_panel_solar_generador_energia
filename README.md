@@ -1,1 +1,1 @@
-# panel_solar_generador_energia
+# fastapi_panel_solar_generador_energia
