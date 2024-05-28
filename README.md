@@ -1,0 +1,1 @@
+# panel_solar_generador_energia
